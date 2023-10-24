@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Launch countdown timer</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Raleway:ital,wght@0,100;0,400;0,600;0,900;1,200;1,400;1,500;1,900&family=Red+Hat+Text:wght@700&family=Roboto:wght@400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class=" box-border font-sans text-[2.25rem]  text-white bg-VeryDarkBlue overflow-y-hidden">
+  <!-- We're launching soon
+
+  Days
+  Hours
+  Minutes
+  Seconds  -->
+  <h1 class="text-white text-center">we're launching soon</h1>
+  <div
+   class="tophalf bg-[url('/images/bg-stars.svg')] pt-[10rem] laptop:pt-[13rem] laptop:pl-[6rem] h-[30rem] w-[100%] pl-[3rem]">
+    
+
+    <div class="container">
+      <div class="container-segment">
+        <!-- <div class="segment-title">Hours</div> -->
+        <div class="segment  text-SoftRed">
+          <div class="flip-card  shadow-lg rounded-[.1em] relative inline-flex flex-col " data-days-tens>
+            <div class="top   ">0</div>
+            <div class="bottom  ">0</div>
+          </div>
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-days-ones>
+            <div class="top ">0</div>
+            <div class="bottom ">0</div>
+          </div>
+        </div>
+        <div class="segment-title">Days</div>
+      </div>
+
+      <div class="container-segment">
+        <!-- <div class="segment-title">Hours</div> -->
+        <div class="segment  text-SoftRed">
+          <div class="flip-card  shadow-lg rounded-[.1em] relative inline-flex flex-col " data-hours-tens>
+            <div class="top">2</div>
+            <div class="bottom ">2</div>
+          </div>
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-hours-ones>
+            <div class="top">4</div>
+            <div class="bottom">4</div>
+          </div>
+        </div>
+        <div class="segment-title">Hours</div>
+      </div>
+
+      <div class="container-segment">
+        <!-- <div class="segment-title">Minutes</div> -->
+        <div class="segment text-SoftRed">
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-minutes-tens>
+            <div class="top ">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-minutes-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+        <div class="segment-title">Minutes</div>
+      </div>
+
+      <div class="container-segment">
+        <!-- <div class="segment-title">Seconds</div> -->
+        <div class="segment text-SoftRed">
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-seconds-tens>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+          <div class="flip-card shadow-lg rounded-[.1em] relative inline-flex flex-col " data-seconds-ones>
+            <div class="top">0</div>
+            <div class="bottom">0</div>
+          </div>
+        </div>
+        <div class="segment-title">Seconds</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="bottom-half">
+    <div class="hills  object-contain mt-[1rem] relative">
+      <img src="./images/pattern-hills.svg" alt="" class="h-[11rem] w-[100%]">
+    </div>
+    <div class="socials laptop:px-[35rem]  absolute flex gap-8 mt-[-5rem] pl-[12rem]  ">
+      <img src="./images/icon-pinterest.svg" alt="" class="hover:bg-SoftRed laptop:w-[2rem]">
+      <img src="./images/icon-instagram.svg" alt="" class="hover:bg-SoftRed laptop:w-[2rem]">
+      <img src="./images/icon-facebook.svg" alt="" class="hover:bg-SoftRed laptop:w-[2rem]">
+    </div>
+  </div>
+<!-- 
+  <div>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="index.js"></script>
+</body>
+
+</html>
